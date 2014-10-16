@@ -1,0 +1,31 @@
+{
+  "name": "grab-string",
+  "version": "1.0.0",
+  "description": "Quick-and-dirty way to extract a string from a text stream ",
+  "main": "lib/grab-string.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhorst/node-stream-grab-string.git"
+  },
+  "author": "Brandon Horst <brandonhorst@gmail.com> (http://github.com/brandonhorst)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonhorst/node-stream-grab-string/issues"
+  },
+  "homepage": "https://github.com/brandonhorst/node-stream-grab-string",
+  "keywords": [
+    "stream",
+    "string",
+    "grab",
+    "tee",
+    "inspect",
+    "observe",
+    "basic"
+  ],
+  "dependencies": {
+    "through": "^2.3.6"
+  }
+}
